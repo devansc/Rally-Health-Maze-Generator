@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MazeGenerator_browser.jnlp">
+  <information>
+    <title>MazeGenerator</title>
+    <vendor>devan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MazeGenerator.jar" size="37767" download="eager" />
+    <jar href="lib/beansbinding-1.2.1.jar" size="631289" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="mazegenerator.GUI"  name="MazeGenerator" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
